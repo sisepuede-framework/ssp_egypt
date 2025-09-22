@@ -4,22 +4,12 @@ This repository contains notebooks and supporting files used to run the
 **SISEPUEDE** model on Egypt's mitigation scenarios. All modeling resources
 reside in the `ssp_modeling` folder described below.
 
----
-
-## Visualization
-
-Explore the public visualization of Egypt's case study here:  
-[Egypt Case Study – (Tableau)](https://public.tableau.com/app/profile/carlos.fabian.fuentes.rivas/viz/Egypt_CaseStudy_v0/GHGsectorlayers)
-
----
 
 ## Instructions: Setting Up the SISEPUEDE Environment
 
 ### 1. **Go to the `environment.yml` file**
 
 Obtain the provided `environment.yml` file for SISEPUEDE.
-
----
 
 ### 2. **Set a Custom Environment Name**
 
@@ -38,8 +28,6 @@ For example:
 name: ssp-egypt
 ```
 
----
-
 ### 3. **Create the Environment from the `.yml` File**
 
 In your terminal, navigate to the directory containing your `environment.yml` file, then run:
@@ -49,8 +37,6 @@ conda env create -f environment.yml
 ```
 
 This will create a new Conda environment with the name you set in the file.
-
----
 
 ### 4. **Activate the Environment**
 
@@ -62,13 +48,11 @@ conda activate <your_env_name>
 
 *(Replace `<your_env_name>` with the name you specified in the `.yml` file, e.g., `ssp-egypt`)*
 
----
 
 ### 5. **Done!**
 
 Your environment is now ready to use, with all dependencies (including those installed via pip) preconfigured.
 
----
 
 #### **Tips:**
 
@@ -82,7 +66,6 @@ Your environment is now ready to use, with all dependencies (including those ins
   ```bash
   conda env list
   ```
-
 ## Project Structure
 
 The most relevant files are inside the `ssp_modeling` directory:
@@ -107,9 +90,9 @@ All files and folders referenced here are inside the `ssp_modeling` directory.
    * Open the manager notebook inside `notebooks/` and run the cells to execute the model.
 
 2. **Post-process results**
-  * If you require emission targets, generate the targets file by following the instructions in the [ssp_emission_targets repository](https://github.com/sisepuede-framework/ssp_emission_targets).
-   * Run the `postprocessing_250820.r` script, editing it to point to the correct data.
-   * The script will generate three files; two of them are used in Tableau.
+    * If you require emission targets, generate the targets file by following the instructions in the [ssp_emission_targets repository](https://github.com/sisepuede-framework/ssp_emission_targets).
+    * Run the `postprocessing_250820.r` script, editing it to point to the correct data.
+    * The script will generate three files; two of them are used in Tableau.
 
 3. **Load data into Tableau**
 
