@@ -170,8 +170,11 @@ cython_debug/
 # ignore .mps files
 *.mps
 
-# ignore the transformations dir
-# transformations/
+# ignore the templates dir
+ssp_modeling/transformations/templates/
+
+# ignore the ssp_run_output/ directory
+ssp_modeling/ssp_run_output/
 
 # ignore the .vscode directory
 .vscode/
