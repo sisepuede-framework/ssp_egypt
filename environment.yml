@@ -8,5 +8,5 @@ dependencies:
   - ipykernel=6.29.5
   - pip
   - pip:
-      - git+https://github.com/jcsyme/sisepuede.git@working_version
+      - git+https://github.com/jcsyme/sisepuede.git@1d097d48b6593de248c972a7d220c54d9bef71ac
       - ssp-transformations-handler==0.1.8
