@@ -1,7 +1,5 @@
 citations: null
-description: "Increases probability of input land use classes being converted to secondary\
-  \ forests. This transformation can be defined for specific land use classes--e.g.,\
-  \ converting only shrublands and croplands to "
+description: "Increases probability of input land use classes being converted to "
 identifiers:
   transformation_code: "TX:LNDU:INC_REFORESTATION"
   transformation_name: "Default Value - LNDU: Increase Reforestation"
