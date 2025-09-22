@@ -96,3 +96,23 @@ The most relevant files are inside the `ssp_modeling` directory:
 - `output_postprocessing/` – R scripts used to rescale model results and
     generate processed outputs.
 
+## Steps to run the model and load data to Tableau for analysis
+
+All files and folders referenced here are inside the `ssp_modeling` directory.
+
+1. **Run the model in the notebook**
+
+   * Edit or create a configuration file in `config_files/`.
+   * Set up the transformations spreadsheet for custom Strategies and save it in `scenario_mapping/`.
+   * Open the manager notebook inside `notebooks/` and run the cells to execute the model.
+
+2. **Post-process results**
+  * If you require emission targets, generate the targets file by following the instructions in the [ssp_emission_targets repository](https://github.com/sisepuede-framework/ssp_emission_targets).
+   * Run the `postprocessing_250820.r` script, editing it to point to the correct data.
+   * The script will generate three files; two of them are used in Tableau.
+
+3. **Load data into Tableau**
+
+   * In the `tableau` directory, locate the Tableau dashboard file and the `data` folder.
+   * Copy the postprocessing output files into the `data` folder.
+   * Load the files beginning with `decomposed_emissions_` and `drivers_` into Tableau.
