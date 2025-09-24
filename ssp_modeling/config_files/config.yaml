@@ -1,5 +1,5 @@
 country_name: "egypt"
-ssp_input_file_name: "EGY_real_data_20250828.csv"
+ssp_input_file_name: "sisepuede_raw_inputs_latest_EGY.csv"
 ssp_transformation_cw: "ssp_egypt_transformation_cw.xlsx"
 set_lndu_reallocation_factor_to_zero: true
 energy_model_flag: true
