@@ -1,5 +1,5 @@
 citations: null
-description: None
+description: Missing
 identifiers:
   transformation_code: "TX:WASO:INC_RECYCLING_STRATEGY_NDC"
   transformation_name: "Scaled Default Max Parameters by 0.5 - WASO: Increase recycling"

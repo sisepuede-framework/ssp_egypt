@@ -8,6 +8,7 @@ identifiers:
     \ management for other animals"
 parameters:
   dict_lsmm_pathways: null
+  return_pathways: false
   vec_cats_lvst: null
   vec_implementation_ramp:
     tp_0_ramp: 12

@@ -9,6 +9,7 @@ identifiers:
     \ management for cattle and pigs"
 parameters:
   dict_lsmm_pathways: null
+  return_pathways: false
   vec_cats_lvst: null
   vec_implementation_ramp:
     tp_0_ramp: 12

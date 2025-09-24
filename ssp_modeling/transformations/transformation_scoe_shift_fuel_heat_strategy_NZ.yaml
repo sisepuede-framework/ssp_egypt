@@ -1,5 +1,5 @@
 citations: null
-description: None
+description: Missing
 identifiers:
   transformation_code: "TX:SCOE:SHIFT_FUEL_HEAT_STRATEGY_NZ"
   transformation_name: "Scaled Default Max Parameters by 1.0 - SCOE: Switch to electricity\

@@ -1,5 +1,5 @@
 citations: null
-description: "None"
+description: "Missing"
 identifiers:
   transformation_code: "TX:SCOE:SHIFT_FUEL_HEAT"
   transformation_name: "Default Value - SCOE: Switch to electricity for heat using\

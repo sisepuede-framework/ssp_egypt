@@ -1,5 +1,5 @@
 citations: null
-description: None
+description: Missing
 identifiers:
   transformation_code: "TX:TRNS:SHIFT_FUEL_MEDIUM_DUTY_STRATEGY_NDC"
   transformation_name: "Scaled Default Max Parameters by 0.5 - TRNS: Fuel switch medium\
