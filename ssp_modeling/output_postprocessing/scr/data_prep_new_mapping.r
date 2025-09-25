@@ -5,8 +5,8 @@ Country <- region
 
 mapping <- read.csv(paste0("ssp_modeling/output_postprocessing/data/emission_targets_",region,"_",year_ref,".csv"))
 
-# drop "ids" directly
-mapping$ids <- NULL
+# drop "id" directly
+mapping$id <- NULL
 
 # drop the column whose name is stored in iso_code3
 mapping[[iso_code3]] <- NULL
@@ -399,5 +399,6 @@ file.name <- paste0("decomposed_emissions_", region, "_", year_ref, "_", output.
 write.csv(res$data,paste0(dir.tableau,file.name),row.names=FALSE)
 
 print('Finish:data_prep_new_mapping process')
+
 
 
