@@ -1,7 +1,7 @@
 #drivers
 output.folder <- dir.output
 dir.data <- paste0(output.folder)
-file.name <- paste0(region,".csv")
+file.name <- paste0("decomposed_ssp_output.csv")
 
 #load turkey data  
 data <- read.csv(paste0(dir.data,file.name)) 
